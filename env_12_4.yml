@@ -1,0 +1,20 @@
+name: cuda_env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - pytorch-cuda=12.4  # Note: 12.5 is not yet available in conda, 12.1 is latest stable
+  - torchvision
+  - cuda-toolkit=12.4.0
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - pip
+  - pip:
+    - tensorboard
+
