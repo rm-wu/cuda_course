@@ -1,5 +1,18 @@
 # CUDA Course
 
+## Install the environment
+There are two options for installing the environment, one with CUDA 11.8 and one with CUDA 12.5.
+
+### Option 1: CUDA 11.8
+```bash
+conda env create -f env_11_8.yml
+```
+
+### Option 2: CUDA 12.5
+```bash
+conda env create -f env_12_5.yml
+```
+
 GitHub Repo for CUDA Course on FreeCodeCamp
 
 > Note: This course is designed for Ubuntu Linux. Windows users can use Windows Subsystem for Linux or Docker containers to simulate the ubuntu Linux environment.

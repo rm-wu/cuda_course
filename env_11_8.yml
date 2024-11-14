@@ -1,4 +1,4 @@
-name: cuda_11.8
+name: cuda_env
 channels:
   - pytorch
   - nvidia
