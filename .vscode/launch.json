@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CUDA C++: Debug with GDB",
+            "type": "cppdbg",
+            "request": "launch",
+            // "program": "${fileDirname}/a.out",
+            "program": "/home/mereur1/cuda_course/05_Writing_your_First_Kernels/02 Kernels/build/00_vector_add_v1",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            // "preLaunchTask": "Build CUDA",
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
+}
