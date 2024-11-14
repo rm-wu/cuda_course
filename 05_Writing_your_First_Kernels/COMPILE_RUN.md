@@ -13,6 +13,8 @@ Then, we proceed creating the build directory and compiling the project:
 ```bash
 mkdir build
 cd build
+# If you want to debug
+# cmake -DCMAKE_BUILD_TYPE=Debug ..
 cmake ..
 cmake --build .
 ```
