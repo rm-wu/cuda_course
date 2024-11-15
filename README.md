@@ -8,9 +8,9 @@ There are two options for installing the environment, one with CUDA 11.8 and one
 conda env create -f env_11_8.yml
 ```
 
-### Option 2: CUDA 12.5
+### Option 2: CUDA 12.4
 ```bash
-conda env create -f env_12_5.yml
+conda env create -f env_12_4.yml
 ```
 
 GitHub Repo for CUDA Course on FreeCodeCamp
